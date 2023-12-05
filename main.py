@@ -17,3 +17,12 @@ def get_chat_response(message: ChatMessage):
     )
     
     return {"response": response.choices[0].text.strip()}
+
+@app.get("/")
+def read_root():
+    data = {
+        "message": "Hello, FastAPI!",
+        "additional_info": "This is some additional information.",
+        "status": "OK"
+    }
+    return data
