@@ -170,3 +170,5 @@ SocialReelz/video_editor/v0/data/videos/post_processed_clips/*
 SocialReelz/video_editor/v0/data/videos/pre_processed_clips/*
 SocialReelz/video_editor/v0/data/audio/*
 SocialReelz/video_editor/v0/output/*
+!SocialReelz/video_editor/v0/data/videos/pre_processed_clips/.gitkeep
+!SocialReelz/video_editor/v0/data/audio/.gitkeep
